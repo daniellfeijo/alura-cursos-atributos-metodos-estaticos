@@ -1,0 +1,11 @@
+ 
+Porque esse código não compila?
+ class Teste {
+    int x = 37;
+    public static void main(String [] args) {
+        System.out.println(x);
+    }
+}
+
+Resposta:
+Esse código não compila porque o atributo "x" não é static. Como não houve a instancia do objeto, ele deveria ser estático.

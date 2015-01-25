@@ -1,0 +1,2 @@
+Devemos evitar o uso de static. O que você acha dessa frase? Faz sentido?
+Faz sentido já que o static vai ser visivel por todos os objetos daquela classe e pode causar uma "confusão" se seu uso não for bem direcionado.
